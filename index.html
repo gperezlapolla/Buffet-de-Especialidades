@@ -1,62 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Buffet Especialidades</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 24px;
+            
+        }
+
+        .jumbotron {
+            background-image: url('./assets/Imágenes/buffet\ 2.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px;
+            text-align: center;
+        }
+
+        .plato {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .plato img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+    <title>Restaurante Buffet de Especialidades</title>
 </head>
 <body>
-    
-</body>
-</html>
-    
-    
-    
-</head>
-<body>
-    <div class="header">
-    <h1>Buffet de <strong>Especialidades</strong></h1>
-    <p class="parrafo"><strong>Disfrute de los mejores sabores de la ciudad</strong></p>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">Restaurante Buffet de especialidades</a>
+    </nav>
+
+    <div class="jumbotron">
+        <h1>¡Bienvenido a nuestro Buffet!</h1>
+        <p>Disfruta de una variedad de deliciosos platos</p>
     </div>
 
-    <div class="products">
-        <div class="products">
-            <table>
-            <tr>
-            <td>
-            <img src="./assets/Imágenes/IMG_20210207_104709.jpg" alt="Fotografía plato Cazuela de vacuno" />
-            </td>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 plato">
+                <img src="assets/Imágenes/IMG_20210207_104709.jpg" alt="Cazuela de vacuno">
+                <h3>Cazuela de vacuno</h3>
+                <p>Precio: $8990</p>
+            </div>
+            <div class="col-md-3 plato">
+                <img src="assets/Imágenes/IMG_20200227_151535.jpg" alt="Costillas Asadas">
+                <h3>Costillas Asadas</h3>
+                <p>Precio: $15990</p>
+            </div>
+            <div class="col-md-3 plato">
+                <img src="assets/Imágenes/IMG_20190419_161847.jpg" alt="Ensalada Premiun">
+                <h3>Ensalada Premiun</h3>
+                <p>Precio: $8990</p>
+            </div>
+            <div class="col-md-3 plato">
+                <img src="assets/Imágenes/IMG_20190904_151332.jpg" alt="Sandwich Gourmet">
+                <h3>Especialidad en Sandwich Gourmet</h3>
+                <p>Precio: $10990</p>
+            </div>
+        </div>
+    </div>
 
-        <td>
-        <p><strong>Comida chilena</strong></p>
-        <p>(Cazuela de vacuno)</p>
-         </td>
+    <div class="footer">
+        <p>&copy; 2023 Restaurante delicioso</p>
+    </div>
 
-            </tr>
-
-            <tr>
-            <td>
-            <img src="./assets/Imágenes/IMG_20200227_151535.jpg" alt="Fotografía plato costilla asada de vacuno" />
-            </td>
-
-            <td>
-            <p><strong>Carnes Premiun</strong></p>
-            <p>(Costilla de vacuno)</p>
-            </td>
-            </tr>
-            <tr>
-            <td>
-                <img src="./assets/Imágenes/IMG_20211224_204754.jpg" alt="Fotografía plato ensalada verde" />
-            </td>
-                <td>
-                    <p><strong>Ensaladas y platos veganos</strong></p>
-                    <p>(Ensalada del huerto)</p> 
-                </td>
-            </tr>
-        </table>
-     </div>
-    <div class="footer">Inicio</div>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
