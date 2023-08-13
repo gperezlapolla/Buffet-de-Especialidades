@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkkhaki;
+}
+
+
+.header{
+    height: 12em;
+    padding: 1em;
+    font-size: 2em;
+    background-image: url("../Imágenes/buffet\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius:25px ;
+    border-style: double;
+    
+}
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+    color: beige;
+    text-shadow: 20px 10px 7px black;
+    -webkit-text-stroke: 2px black;
+    
+}
+
+.parrafo{
+    color:gold;
+    -webkit-text-stroke: 2px black;
+    font-size: 130%;
+    text-shadow: 20px 10px 7px black ;
+    
+}
+
+
+
+
+.products {
+    width: 80%;
+    margin: auto;
+    }
+    .products td {
+    width: 50%;
+    padding: 1.5em;
+    font-size: 2em;
+    font-family: cursive;
+    }
+    .products img {
+    width: 100%;
+    border-style: inset;
+    border-radius: 10px;
+    }
+
+    .footer {
+        height: 3em;
+        line-height: 3em;
+        background-color: rgb(185, 112, 41);
+        background-position-x: center;
+        color: white;
+        text-align: center;
+        font-weight: 1200;
+        }
